@@ -1,0 +1,33 @@
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.button-container :nth-child(4),:nth-child(8),:nth-child(12), :nth-child(16), :nth-child(19) {
+    background-color: rgb(255, 115, 0);
+}
+
+.display-div {
+    display: flex;
+    flex-direction: row-reverse;
+    background: rgb(106, 125, 126);
+    color: white;
+    font-size: 26px;
+    padding: 8px;
+}
+
+.button-container button {
+    padding: 9px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 9px;
+}
+
+.button-container :nth-child(17) { 
+   grid-column: span 2;
+}
+
+.main-div {
+    max-width: 70%;
+    margin: 15% 10%;
+}
