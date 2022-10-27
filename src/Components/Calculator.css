@@ -12,16 +12,6 @@
   background-color: rgb(255, 115, 0);
 }
 
-/* .button-container,
-:nth-child(19),
-:nth-child(16),
-:nth-child(12),
-:nth-child(8),
-:nth-child(4).
- hover{
-  background-color: rgba(11, 7, 5, 0.591);
-} */
-
 .display-div {
   display: flex;
   flex-direction: row-reverse;
