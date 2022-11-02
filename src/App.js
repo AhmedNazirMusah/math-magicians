@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { Route, Routes, NavLink } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Calculator from './Components/Calculator';
 import Homepage from './Components/homepage';
 import Navbar from './Components/Navigation';
@@ -15,20 +15,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <nav className="nav-container">
-          <Navbar />
-          <ul className="main-nav">
-            <li>
-              <NavLink to="/">Home |</NavLink>
-            </li>
-            <li>
-              <NavLink to="/calculator">Calculator |</NavLink>
-            </li>
-            <li>
-              <NavLink to="/quote">Quote</NavLink>
-            </li>
-          </ul>
-        </nav>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/calculator" element={<Calculator />} />
