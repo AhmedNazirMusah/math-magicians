@@ -1,0 +1,33 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 20px;
+}
+
+.active {
+  color: orange;
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.quote {
+  padding: 10%;
+}
+
+p {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 40px;
+}

@@ -27,20 +27,23 @@ const Calculator = () => {
   const { total, next } = textContent;
   return (
     <div className="main-div">
-      <div className="display-div">{next || total || 0 }</div>
-      <section className="button-container">
-        {allbuttons.map((btn) => (
-          <button
-            key={btn}
-            name={btn}
-            type="button"
-            className="buttons"
-            onClick={(e) => handleClick(e)}
-          >
-            {btn}
-          </button>
-        ))}
-      </section>
+      <p>Let&apos;s do some math!</p>
+      <div className="calculator-div">
+        <div className="display-div">{next || total || 0 }</div>
+        <section className="button-container">
+          {allbuttons.map((btn) => (
+            <button
+              key={btn}
+              name={btn}
+              type="button"
+              className="buttons"
+              onClick={(e) => handleClick(e)}
+            >
+              {btn}
+            </button>
+          ))}
+        </section>
+      </div>
     </div>
   );
 };
