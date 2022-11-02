@@ -32,6 +32,12 @@
 }
 
 .main-div {
-  max-width: 70%;
-  margin: 15% 10%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+
+.calculator-div {
+  width: 65%;
 }
