@@ -15,9 +15,9 @@
 - JavaScript
 - ReactJs
 
-## Live Demo
+## Live Demo 
 
-[**See Project 🚀**](Coming soon;
+[ **See Project 🚀** ](https://dreamy-gumdrop-4eb736.netlify.app/)
 
 ## Get Started
 
