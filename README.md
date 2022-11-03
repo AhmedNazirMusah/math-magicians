@@ -73,6 +73,7 @@ npx eslint .
 - LinkedIn: [Link to LinkedIn Profile](https://www.linkedin.com/in/ahmed-nazir-musah-529956214)
 
 ## 🤝 Contributing
+ ## [Richard Chileya](https://github.com/RichardChileya)
 
 Contributions, issues, and feature requests are welcome!
 
