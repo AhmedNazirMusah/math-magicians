@@ -17,7 +17,7 @@
 
 ## Live Demo 
 
-[ **See Project 🚀** ](https://dreamy-gumdrop-4eb736.netlify.app/)
+[ **See Project 🚀** ](https://mathmagiciannazir.netlify.app)
 
 ## Get Started
 
